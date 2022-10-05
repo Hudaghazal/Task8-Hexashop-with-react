@@ -1,0 +1,30 @@
+
+  .card {
+    padding: 100px;
+    border-bottom: 3px dotted rgb(212, 207, 207);
+  }
+  .txt {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .txt p {
+    color: rgb(148, 146, 143);
+  }
+  .card-item {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+  }
+  .txtc {
+    margin-top: 10px;
+  }
+  .txtc p {
+    margin-top: 5px;
+    color: rgb(148, 146, 143);
+  }
+  .star::after {
+    content: "⭐️⭐️⭐️⭐️⭐️⭐️";
+    padding-left: 180px;
+  }

@@ -1,0 +1,18 @@
+.footer{
+    padding: 100px;
+
+}
+.title{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style-type: none;
+    gap: 25px;
+  }
+  .list-item:hover {
+    color: rgb(197, 184, 184);
+  }
